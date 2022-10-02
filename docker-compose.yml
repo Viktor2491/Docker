@@ -7,8 +7,7 @@ services:
     volumes:
       - ./data:/var/lib/postgresql
     environment:
-      POSTGRES_RANDOM_ROOT_PASSWORD: 'yes'
-      POSTGRES_DATABASE: app
+      POSTGRES_DB: app
       POSTGRES_USER: app
       POSTGRES_PASSWORD: 9qwerty9ytrewq9
 
